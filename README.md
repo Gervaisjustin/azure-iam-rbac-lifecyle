@@ -1,7 +1,7 @@
 # azure-iam-rbac-lifecyle
 # Azure Entra ID – RBAC & IAM Lifecycle Implementation
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the design and implementation of a role-based access control (RBAC) model using Microsoft Azure Entra ID.
 
@@ -15,7 +15,7 @@ The objective was to simulate a real-world enterprise IAM environment including:
 
 ---
 
-## 🏗 Environment
+##  Environment
 
 - Microsoft Azure Portal
 - Microsoft Entra ID (Free Tier)
@@ -25,7 +25,7 @@ The objective was to simulate a real-world enterprise IAM environment including:
 
 ---
 
-## 👥 Role-Based Access Model
+##  Role-Based Access Model
 
 Security groups aligned to business functions:
 
@@ -39,7 +39,7 @@ Direct user-to-application assignments were intentionally avoided to prevent pri
 
 ---
 
-## 🖥 Enterprise Applications Created
+##  Enterprise Applications Created
 
 1. Payroll-Portal  
    Assigned: HR_Users, Finance_Users  
@@ -54,7 +54,7 @@ This model enforces least privilege and segregation of duties.
 
 ---
 
-## 🔄 User Lifecycle Simulation
+##  User Lifecycle Simulation
 
 ### Onboarding Process
 1. Created new user in Entra ID.
@@ -68,7 +68,7 @@ This model enforces least privilege and segregation of duties.
 
 ---
 
-## 🔐 Security Controls Implemented
+##  Security Controls Implemented
 
 - Role-Based Access Control (RBAC)
 - Group-based assignment model
@@ -78,7 +78,7 @@ This model enforces least privilege and segregation of duties.
 
 ---
 
-## 📊 Access Review & Governance
+##  Access Review & Governance
 
 An access review was conducted to identify:
 
@@ -92,7 +92,7 @@ See `/access-review` folder for documentation.
 
 ---
 
-## 🎯 IAM Concepts Demonstrated
+##  IAM Concepts Demonstrated
 
 - Least Privilege
 - Role Engineering
